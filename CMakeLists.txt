@@ -3,4 +3,4 @@ project(Extraclase_DatosII_II)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Extraclase_DatosII_II main.cpp Car.cpp Car.h Observer.cpp)
+add_executable(Extraclase_DatosII_II main.cpp Car.cpp Car.h Observer.cpp Director.cpp Director.h Builder.cpp Builder.h Plane.cpp Plane.h)

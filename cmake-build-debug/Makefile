@@ -43,19 +43,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\PROGRA\CLion\Extraclase_DatosII_II
+CMAKE_SOURCE_DIR = "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -74,7 +74,7 @@ edit_cache\fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	echo >nul && "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -84,9 +84,9 @@ rebuild_cache\fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles" "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,33 @@ Extraclase_DatosII_II\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\build
 .PHONY : Extraclase_DatosII_II\fast
 
+Builder.obj: Builder.cpp.obj
+
+.PHONY : Builder.obj
+
+# target to build an object file
+Builder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Builder.cpp.obj
+.PHONY : Builder.cpp.obj
+
+Builder.i: Builder.cpp.i
+
+.PHONY : Builder.i
+
+# target to preprocess a source file
+Builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Builder.cpp.i
+.PHONY : Builder.cpp.i
+
+Builder.s: Builder.cpp.s
+
+.PHONY : Builder.s
+
+# target to generate assembly for a file
+Builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Builder.cpp.s
+.PHONY : Builder.cpp.s
+
 Car.obj: Car.cpp.obj
 
 .PHONY : Car.obj
@@ -154,6 +181,33 @@ Car.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Car.cpp.s
 .PHONY : Car.cpp.s
 
+Director.obj: Director.cpp.obj
+
+.PHONY : Director.obj
+
+# target to build an object file
+Director.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Director.cpp.obj
+.PHONY : Director.cpp.obj
+
+Director.i: Director.cpp.i
+
+.PHONY : Director.i
+
+# target to preprocess a source file
+Director.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Director.cpp.i
+.PHONY : Director.cpp.i
+
+Director.s: Director.cpp.s
+
+.PHONY : Director.s
+
+# target to generate assembly for a file
+Director.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Director.cpp.s
+.PHONY : Director.cpp.s
+
 Observer.obj: Observer.cpp.obj
 
 .PHONY : Observer.obj
@@ -180,6 +234,33 @@ Observer.s: Observer.cpp.s
 Observer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Observer.cpp.s
 .PHONY : Observer.cpp.s
+
+Plane.obj: Plane.cpp.obj
+
+.PHONY : Plane.obj
+
+# target to build an object file
+Plane.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Plane.cpp.obj
+.PHONY : Plane.cpp.obj
+
+Plane.i: Plane.cpp.i
+
+.PHONY : Plane.i
+
+# target to preprocess a source file
+Plane.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Plane.cpp.i
+.PHONY : Plane.cpp.i
+
+Plane.s: Plane.cpp.s
+
+.PHONY : Plane.s
+
+# target to generate assembly for a file
+Plane.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\Plane.cpp.s
+.PHONY : Plane.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -217,12 +298,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Extraclase_DatosII_II
+	@echo ... Builder.obj
+	@echo ... Builder.i
+	@echo ... Builder.s
 	@echo ... Car.obj
 	@echo ... Car.i
 	@echo ... Car.s
+	@echo ... Director.obj
+	@echo ... Director.i
+	@echo ... Director.s
 	@echo ... Observer.obj
 	@echo ... Observer.i
 	@echo ... Observer.s
+	@echo ... Plane.obj
+	@echo ... Plane.i
+	@echo ... Plane.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

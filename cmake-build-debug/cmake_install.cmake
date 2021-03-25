@@ -1,4 +1,4 @@
-# Install script for directory: D:/PROGRA/CLion/Extraclase_DatosII_II
+# Install script for directory: D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Extraclase_II_Datos_II
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/PROGRA/CLion/Extraclase_DatosII_II/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Extraclase_II_Datos_II/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

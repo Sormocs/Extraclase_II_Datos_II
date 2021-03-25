@@ -39,19 +39,19 @@ NULL=nul
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\serma\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\PROGRA\CLion\Extraclase_DatosII_II
+CMAKE_SOURCE_DIR = "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug
+CMAKE_BINARY_DIR = "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -78,14 +78,14 @@ clean: CMakeFiles\Extraclase_DatosII_II.dir\clean
 CMakeFiles\Extraclase_DatosII_II.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Extraclase_DatosII_II.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target Extraclase_DatosII_II"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5,6,7 "Built target Extraclase_DatosII_II"
 .PHONY : CMakeFiles\Extraclase_DatosII_II.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\Extraclase_DatosII_II.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles" 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\Extraclase_DatosII_II.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\PROGRA\CLion\Extraclase_DatosII_II\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles\Extraclase_DatosII_II.dir\rule
 
 # Convenience name for target.

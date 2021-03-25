@@ -1,8 +1,21 @@
 #include <iostream>
 #include "Car.h"
+#include "Director.h"
+
+void Observer();
+
+void BuilderShow();
 
 int main() {
 
+    Observer();
+
+    BuilderShow();
+
+    return 0;
+}
+
+void Observer(){
     std::cout << "Patron Observer\n" << "~~~~~~~~~~" << std::endl;
     Car *car = new Car();
     Person *p1 = new Person(*car);
@@ -18,6 +31,22 @@ int main() {
     p3->RemoveSelf();
 
     std::cout << "~~~~~~~~~~" << std::endl;
+}
 
-    return 0;
+void BuilderShow(){
+    Director* director = new Director(true);
+
+    cout << "\n\nSide featured plane: \n";
+
+    director->BuildSideFeaturedPlane();
+    director->ShowPlane();
+
+    director->ResetBuilder();
+
+    cout << "\n\nFull plane: \n";
+
+    director->BuildFullPlane();
+    director->ShowPlane();
+
+    delete director;
 }
