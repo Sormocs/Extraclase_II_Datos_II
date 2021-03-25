@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Extraclase_II_Datos_II.iml" filepath="$PROJECT_DIR$/.idea/Extraclase_II_Datos_II.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Extraclase_DatosII_II.iml" filepath="$PROJECT_DIR$/.idea/Extraclase_DatosII_II.iml" />
+>>>>>>> 9529c20a3bceaa50f40f37e4a4b6d74e82f9a1d0
     </modules>
   </component>
 </project>

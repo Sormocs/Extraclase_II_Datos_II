@@ -2,7 +2,11 @@
 /shelf/
 /workspace.xml
 # Datasource local storage ignored files
+<<<<<<< HEAD
 /../../../../../../../../:\OneDrive - Estudiantes ITCR\TEC\2021 I\Algoritmos y Estructuras de Datos II\Repositorios de git\Extraclase_II_Datos_II\.idea/dataSources/
+=======
+/../../../../../:\PROGRA\CLion\Extraclase_DatosII_II\.idea/dataSources/
+>>>>>>> 9529c20a3bceaa50f40f37e4a4b6d74e82f9a1d0
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/

@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
 D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Extraclase_II_Datos_II/Plane.cpp
 Plane.h
 D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Extraclase_II_Datos_II/Plane.h
 
 D:/OneDrive - Estudiantes ITCR/TEC/2021 I/Algoritmos y Estructuras de Datos II/Repositorios de git/Extraclase_II_Datos_II/Plane.h
+=======
+D:/PROGRA/CLion/Extraclase_DatosII_II/Car.h
+Observer.cpp
+D:/PROGRA/CLion/Extraclase_DatosII_II/Observer.cpp
+>>>>>>> 9529c20a3bceaa50f40f37e4a4b6d74e82f9a1d0
 list
 -
 iostream
 -
+
+D:/PROGRA/CLion/Extraclase_DatosII_II/main.cpp
+iostream
+-
+Car.h
+D:/PROGRA/CLion/Extraclase_DatosII_II/Car.h
 
