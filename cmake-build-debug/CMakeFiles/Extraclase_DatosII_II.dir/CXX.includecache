@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-D:/PROGRA/CLion/Extraclase_DatosII_II/Car.cpp
-iostream
--
-Car.h
-D:/PROGRA/CLion/Extraclase_DatosII_II/Car.h
-
 D:/PROGRA/CLion/Extraclase_DatosII_II/Car.h
 Observer.cpp
 D:/PROGRA/CLion/Extraclase_DatosII_II/Observer.cpp
@@ -23,4 +17,10 @@ string
 D:/PROGRA/CLion/Extraclase_DatosII_II/Observer.cpp
 iostream
 -
+
+D:/PROGRA/CLion/Extraclase_DatosII_II/main.cpp
+iostream
+-
+Car.h
+D:/PROGRA/CLion/Extraclase_DatosII_II/Car.h
 
